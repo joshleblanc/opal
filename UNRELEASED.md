@@ -1,9 +1,4 @@
-<!--
-Whitespace conventions:
-- 4 spaces before ## titles
-- 2 spaces before ### titles
-- 1 spaces before normal text
--->
+### Fixed
 
 ### Added
 
@@ -56,6 +51,7 @@ Whitespace conventions:
 - Fix Regexp interpolation, previously interpolating with other regexps was broken (#2062)
 - Set match on StringScanner#skip and StringScanner#scan_until (#2061)
 - Fix ruby 2.7 warnings (#2071)
+- Fixed compiling code with Unicode chars from Opal with opal-parser (#2073)
 
 
 ### Changed
